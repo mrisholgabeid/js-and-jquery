@@ -29,7 +29,7 @@ jQuery(document).ready(function() {
 
 	//Dynamically loading content
 	jQuery("#about").click(function() {
-		jQuery(".about_placeholder").load("https://mrisholgabeid.github.io/js-and-jquery/assets/html/about.html .about_body");
+		jQuery(".extra-text").load("https://mrisholgabeid.github.io/js-and-jquery/assets/html/about.html .about_body");
 		return false;
 	});
 
